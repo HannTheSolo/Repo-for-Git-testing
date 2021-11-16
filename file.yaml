@@ -29,7 +29,7 @@ livenessProbe:
   enabled: true
   initialDelaySeconds: 60
   timeoutSeconds: 1
-  periodSeconds: 10
+  periodSeconds: 1
   failureThreshold: 1
   path: /health
   port: 8080
