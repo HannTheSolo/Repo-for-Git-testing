@@ -16,7 +16,7 @@ failureThreshold: 10
 
 readinessProbe:
   enabled: true
-  initialDelaySeconds: 5
+  initialDelaySeconds: 15
   timeoutSeconds: 1
   periodSeconds: 5
   failureThreshold: 10
