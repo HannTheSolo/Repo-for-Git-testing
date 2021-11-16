@@ -16,9 +16,9 @@ failureThreshold: 10
 
 readinessProbe:
   enabled: true
-  initialDelaySeconds: 5
-  timeoutSeconds: 2
-  periodSeconds: 5
+  initialDelaySeconds: 10
+  timeoutSeconds: 10
+  periodSeconds: 10
   failureThreshold: 10
   path: /health
   port: 8080
