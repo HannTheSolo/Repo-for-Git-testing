@@ -16,7 +16,11 @@ failureThreshold: 10
 
 readinessProbe:
   enabled: true
+<<<<<<< HEAD
   initialDelaySeconds: 15
+=======
+  initialDelaySeconds: 10
+>>>>>>> 15fdfebaf195fec9b6fc57b24b8bce58a48f9cc2
   timeoutSeconds: 1
   periodSeconds: 5
   failureThreshold: 10
